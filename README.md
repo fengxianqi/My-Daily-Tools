@@ -22,7 +22,9 @@ var $btns = $('#btn-area').find('.btn');
 
     topAnDown();
 })
-~~~ bash
+~~~ 
+
+
 
 # 网易分享必填 
 ~~~ bash
@@ -48,7 +50,7 @@ $(function(){
     });
 $("a").focus(function(){this.blur();});
 });
-~~~ bash
+~~~
 
 
 # 网易视频调用
@@ -87,7 +89,7 @@ $(function(){
        $("#videoShow").html("");
 
    });
-~~~ bash
+~~~
 
 + html
 ~~~ bash
@@ -98,7 +100,7 @@ $(function(){
  <div class="videoBox" id="videoShow">
  </div>
 </div>
-~~~ bash
+~~~
 
 + css
 ~~~ bash
@@ -155,7 +157,7 @@ $(function(){
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-~~~ bash
+~~~
 
 
 
