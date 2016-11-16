@@ -23,7 +23,9 @@ var $btns = $('#btn-area').find('.btn');
     topAnDown();
 })
 ~~~ bash
+
 # 网易分享必填 
+~~~ bash
 $(function(){
     //nie.config.copyRight.setGray();
     var share = null;
@@ -46,11 +48,12 @@ $(function(){
     });
 $("a").focus(function(){this.blur();});
 });
-
+~~~ bash
 
 
 # 网易视频调用
 + js部分
+~~~ bash
 $(function(){
     var video=null;
     $(".btn-movie").click(function() {
@@ -85,8 +88,8 @@ $(function(){
 
    });
 ~~~ bash
-+ html
 
++ html
 ~~~ bash
 <!--视频弹层-->
 <div class="hide-box"></div>
@@ -96,6 +99,7 @@ $(function(){
  </div>
 </div>
 ~~~ bash
+
 + css
 ~~~ bash
 .hide-box{
